@@ -1,1 +1,269 @@
-<!doctype html><html><head><title>MSK Collections</title><link href='css/style.css' rel='stylesheet'></head><body><h1>MSK Collections</h1><p>Fashion, Elegance & Style For Every Woman</p><p>Free Shipping Above ₹1499</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSK COLLECTIONS | Fashion & Elegance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        teal: '#0B6A88',
+                        gold: '#D4AF37',
+                        cream: '#FFFDF7',
+                        dark: '#1F2937',
+                    },
+                    fontFamily: {
+                        playfair: ['Playfair Display', 'serif'],
+                        inter: ['Inter', 'sans-serif'],
+                        script: ['Great Vibes', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter text-dark bg-cream">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-teal text-white text-xs py-2 px-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="tracking-wide flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                Free Shipping Above ₹1499
+            </span>
+            <span class="font-medium flex items-center gap-2">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 21.085c-1.636-.002-3.238-.415-4.664-1.196l-5.185 1.356 1.38-5.04a9.923 9.923 0 0 1-1.425-5.161c.004-5.485 4.472-9.948 9.967-9.948 2.658.002 5.158 1.042 7.037 2.923a9.941 9.941 0 0 1 2.924 7.04c-.004 5.485-4.47 9.948-9.965 9.948H12.03zm-4.996-3.155l.343.203a7.896 7.896 0 0 0 4.654 1.488h.001c4.358 0 7.904-3.541 7.908-7.891a7.886 7.886 0 0 0-2.316-5.586A7.87 7.87 0 0 0 12.034 3.83c-4.358 0-7.905 3.541-7.909 7.891a7.874 7.874 0 0 0 1.157 4.095l.215.34-1.341 4.896 5.011-1.311h-.001z"></path></svg>
+                WhatsApp Orders Only: 94413 93174
+            </span>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <nav class="bg-white py-4 border-b border-gray-100 shadow-sm">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex-shrink-0">
+                <img src="images/logo.jpg" alt="MSK Collections" class="h-16 md:h-20 object-contain" onerror="this.src='https://placehold.co/200x80?text=MSK+Collections'">
+            </a>
+            
+            <!-- Search -->
+            <div class="hidden md:flex flex-1 mx-12 max-w-2xl relative">
+                <input type="text" placeholder="Search for products..." class="w-full pl-6 pr-12 py-3 border border-gray-300 rounded-full focus:outline-none focus:border-teal focus:ring-1 focus:ring-teal bg-gray-50 text-sm">
+                <button class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-teal">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </button>
+            </div>
+
+            <!-- Account & Cart -->
+            <div class="flex items-center space-x-8 font-medium">
+                <a href="#" class="flex items-center gap-2 hover:text-teal transition group">
+                    <svg class="w-6 h-6 text-gray-600 group-hover:text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                    <div class="text-xs leading-tight">
+                        <span class="block font-bold text-dark group-hover:text-teal">My Account</span>
+                        <span class="text-gray-500 font-normal">Login / Signup</span>
+                    </div>
+                </a>
+                <a href="#" class="flex items-center gap-2 hover:text-teal transition group relative">
+                    <div class="relative">
+                        <svg class="w-7 h-7 text-gray-600 group-hover:text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <span class="absolute -top-2 -right-2 bg-teal text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">0</span>
+                    </div>
+                    <div class="text-xs leading-tight hidden sm:block">
+                        <span class="block font-bold text-dark group-hover:text-teal">My Cart</span>
+                        <span class="text-gray-500 font-normal">₹0.00</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Menu -->
+    <div class="bg-teal text-white py-3 shadow-md relative z-10">
+        <div class="container mx-auto px-4 flex justify-center space-x-8 text-xs md:text-sm font-bold tracking-widest whitespace-nowrap">
+            <a href="#" class="hover:text-gold transition">HOME</a>
+            <a href="#" class="hover:text-gold transition flex items-center gap-1">NEW ARRIVALS <span class="bg-gold text-dark text-[10px] px-1.5 py-0.5 rounded">NEW</span></a>
+            <a href="#" class="hover:text-gold transition flex items-center gap-1">WEDDING COLLECTION <span class="bg-red-500 text-white text-[10px] px-1.5 py-0.5 rounded">HOT</span></a>
+            <a href="#" class="hover:text-gold transition">CLOTHING ▾</a>
+            <a href="#" class="hover:text-gold transition">JEWELLERY ▾</a>
+            <a href="#" class="hover:text-gold transition">HAIR ACCESSORIES ▾</a>
+            <a href="#" class="hover:text-gold transition">FOOTWEAR ▾</a>
+            <a href="#" class="hover:text-gold transition">CONTACT US</a>
+        </div>
+    </div>
+
+    <!-- Hero Banner Section -->
+    <section class="relative bg-cream bg-cover bg-center min-h-[300px] flex items-center" style="background-image: url('images/bgImg.png');">
+        <!-- Overlay just in case the image is missing, keeping text legible -->
+        <div class="absolute inset-0 bg-gradient-to-r from-cream via-cream/80 to-transparent"></div>
+        
+        <div class="container mx-auto px-4 relative z-10 py-10 px-16">
+            <div class="w-full lg:w-1/2 xl:w-[45%] space-y-6">
+                <p class="text-gray-600 uppercase tracking-[0.2em] text-sm font-bold">Welcome To</p>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-playfair text-teal font-bold leading-none tracking-wide">
+                    MSK <br> COLLECTIONS
+                </h1>
+                <p class="text-xl md:text-2xl lg:text-3xl font-script text-gold leading-relaxed pr-8">
+                    Fashion, Elegance & Style <br> For Every Woman
+                </p>
+
+                <!-- Circle Categories in Hero -->
+                <div class="flex flex-wrap items-center gap-4 sm:gap-8 pt-6">
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-white transition">
+                            <!-- SVG Placeholder for Saree -->
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        </div>
+                        <span class="text-teal font-bold text-xs uppercase tracking-wide">Sarees</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-white transition">
+                            <!-- SVG Placeholder for Kurtis -->
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                        </div>
+                        <span class="text-teal font-bold text-xs uppercase tracking-wide">Kurtis</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-white transition">
+                            <!-- SVG Placeholder for Jewellery -->
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                        </div>
+                        <span class="text-teal font-bold text-xs uppercase tracking-wide">Jewellery</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-white transition">
+                            <!-- SVG Placeholder for Accessories -->
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <span class="text-teal font-bold text-xs uppercase tracking-wide">Accessories</span>
+                    </div>
+                    <div class="flex flex-col items-center gap-2 group cursor-pointer">
+                        <div class="w-14 h-14 rounded-full border border-gold flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-white transition">
+                            <!-- SVG Placeholder for Footwear -->
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.47 18.067l.156-.312A2 2 0 0013.9 15H5a2 2 0 110-4h2.5M2 8h16a2 2 0 012 2v12a2 2 0 01-2 2H2a2 2 0 01-2-2V10a2 2 0 012-2z"></path></svg>
+                        </div>
+                        <span class="text-teal font-bold text-xs uppercase tracking-wide">Footwear</span>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 pt-6">
+                    <button class="bg-teal text-white px-8 py-3 rounded hover:bg-opacity-90 transition font-bold tracking-wide shadow-md uppercase text-sm">
+                        SHOP NOW
+                    </button>
+                    <button class="bg-[#F9F6EE] border-2 border-gold text-teal px-8 py-3 rounded flex items-center justify-center gap-2 hover:bg-gold hover:text-white transition font-bold tracking-wide uppercase text-sm">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 21.085c-1.636-.002-3.238-.415-4.664-1.196l-5.185 1.356 1.38-5.04a9.923 9.923 0 0 1-1.425-5.161c.004-5.485 4.472-9.948 9.967-9.948 2.658.002 5.158 1.042 7.037 2.923a9.941 9.941 0 0 1 2.924 7.04c-.004 5.485-4.47 9.948-9.965 9.948H12.03zm-4.996-3.155l.343.203a7.896 7.896 0 0 0 4.654 1.488h.001c4.358 0 7.904-3.541 7.908-7.891a7.886 7.886 0 0 0-2.316-5.586A7.87 7.87 0 0 0 12.034 3.83c-4.358 0-7.905 3.541-7.909 7.891a7.874 7.874 0 0 0 1.157 4.095l.215.34-1.341 4.896 5.011-1.311h-.001z"></path></svg>
+                        ORDER ON WHATSAPP
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-[#F8F9FA] border-b border-gray-200 py-6">
+        <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 divide-x divide-gray-200">
+            <div class="flex items-center justify-center gap-4 px-4 text-center sm:text-left flex-col sm:flex-row">
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                <div>
+                    <h4 class="text-teal font-bold text-sm tracking-wide">FREE SHIPPING</h4>
+                    <p class="text-xs text-gray-500">Above ₹1499</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-4 px-4 text-center sm:text-left flex-col sm:flex-row">
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div>
+                    <h4 class="text-teal font-bold text-sm tracking-wide">QUALITY PRODUCTS</h4>
+                    <p class="text-xs text-gray-500">Premium Quality</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-4 px-4 text-center sm:text-left flex-col sm:flex-row">
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                <div>
+                    <h4 class="text-teal font-bold text-sm tracking-wide">WHATSAPP ORDER</h4>
+                    <p class="text-xs text-gray-500">94413 93174</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-4 px-4 text-center sm:text-left flex-col sm:flex-row">
+                <svg class="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                <div>
+                    <h4 class="text-teal font-bold text-sm tracking-wide">EASY RETURNS</h4>
+                    <p class="text-xs text-gray-500">7 Days Return</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW ARRIVALS Section -->
+    <section class="py-16 bg-cream">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-playfair text-teal font-bold mb-2">NEW ARRIVALS</h2>
+                <div class="flex items-center justify-center gap-2">
+                    <span class="w-12 h-[1px] bg-gold"></span>
+                    <svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6-4.8-6 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                    <span class="w-12 h-[1px] bg-gold"></span>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-lg transition group overflow-hidden relative">
+                    <span class="absolute top-2 left-2 bg-teal text-white text-[10px] px-2 py-1 font-bold rounded z-10">NEW</span>
+                    <div class="aspect-square overflow-hidden bg-gray-50">
+                        <img src="images/jewellery/1.jpg" alt="ADJ 850 Long 3 Line Necklace" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/ddd/555?text=Product+1'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-medium text-dark text-sm truncate">ADJ 850 Long 3 Line Necklace</h3>
+                        <p class="text-dark font-bold mt-1">₹850</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-lg transition group overflow-hidden relative">
+                    <span class="absolute top-2 left-2 bg-teal text-white text-[10px] px-2 py-1 font-bold rounded z-10">NEW</span>
+                    <div class="aspect-square overflow-hidden bg-gray-50">
+                        <img src="images/bangles/2.jpg" alt="ADJ 730 Necklace Set" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/ddd/555?text=Product+2'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-medium text-dark text-sm truncate">ADJ 730 Necklace Set</h3>
+                        <p class="text-dark font-bold mt-1">₹730</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-lg transition group overflow-hidden relative">
+                    <span class="absolute top-2 left-2 bg-teal text-white text-[10px] px-2 py-1 font-bold rounded z-10">NEW</span>
+                    <div class="aspect-square overflow-hidden bg-gray-50">
+                        <img src="images/kurthaSet/1.jpg" alt="ADJ 750 Necklace Set" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/ddd/555?text=Product+3'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-medium text-dark text-sm truncate">ADJ 750 Necklace Set</h3>
+                        <p class="text-dark font-bold mt-1">₹750</p>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-lg transition group overflow-hidden relative">
+                    <span class="absolute top-2 left-2 bg-teal text-white text-[10px] px-2 py-1 font-bold rounded z-10">NEW</span>
+                    <div class="aspect-square overflow-hidden bg-gray-50">
+                        <img src="images/clutches/8.PNG" alt="Designer Necklace" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/ddd/555?text=Product+4'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-medium text-dark text-sm truncate">Designer Premium Necklace</h3>
+                        <p class="text-dark font-bold mt-1">₹950</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-center">
+                <button class="bg-teal text-white px-8 py-3 rounded hover:bg-[#08526a] transition font-bold tracking-wide flex items-center gap-2 mx-auto text-sm">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+                    VIEW ALL PRODUCTS
+                </button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
